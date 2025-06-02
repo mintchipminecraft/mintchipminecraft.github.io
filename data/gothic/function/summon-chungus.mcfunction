@@ -1,0 +1,2 @@
+summon endermite
+kill @s

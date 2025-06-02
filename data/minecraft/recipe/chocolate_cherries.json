@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+	"minecraft:cooked_chicken",
+	"minecraft:brown_dye"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:structure_block",
+	"components": {
+		"minecraft:item_model": "minecraft:chocolate_cherries",
+		"minecraft:item_name": {"translate":"item.minecraft.chocolate_cherries"},
+		"minecraft:rarity": "common",
+		"minecraft:consumable": {},
+		"minecraft:food": {"nutrition": 1, "saturation": 1}
+	}
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "minecraft:salmon"
+  },
+  "pattern": [
+    "CCC",
+    "C C"
+  ],
+  "result": {
+    "id": "minecraft:golden_helmet",
+    "components": {
+		"minecraft:item_name": {"translate": "item.minecraft.rosegold_helmet"},
+		"minecraft:item_model": "minecraft:rosegold_helmet",
+		"minecraft:max_damage": 200,
+		"minecraft:equippable": {
+			"slot": "head",
+			"asset_id": "minecraft:rosegold"
+		}
+	}
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:potion",
+	"minecraft:gunpowder",
+	"#minecraft:wool"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:lingering_potion",
+	"components": {
+		"minecraft:item_model": "minecraft:molotov",
+		"minecraft:potion_contents": {
+			"custom_color": 14904594,
+			"custom_name": "molotov",
+			"custom_effects": [{"id":"minecraft:instant_damage"}]
+		},
+		"minecraft:max_stack_size": 16,
+		"minecraft:tooltip_display": {
+			"hidden_components": ["minecraft:potion_contents"]
+		}
+	}
+  }
+}

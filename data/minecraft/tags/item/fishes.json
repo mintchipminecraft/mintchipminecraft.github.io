@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:cod",
+    "minecraft:cooked_cod",
+    "minecraft:pufferfish"
+  ]
+}

@@ -1,0 +1,2 @@
+item replace entity @s weapon.mainhand with minecraft:recovery_compass[item_name={"translate":"item.minecraft.magic_mirror"},item_model="minecraft:magic_mirror",rarity="common",consumable={"consume_seconds":9999999,"animation":"block"}]
+data modify entity @s drop_chances.mainhand set value 1f

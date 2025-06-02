@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#minecraft:creeper_drop_music_discs"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:repeating_command_block"
+  }
+}

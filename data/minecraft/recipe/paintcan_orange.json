@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "paintcan",
+	"ingredients": [
+		"minecraft:orange_dye",
+		"minecraft:glow_lichen",
+		"minecraft:glow_lichen",
+		"minecraft:glow_lichen",
+		"minecraft:glow_lichen",
+		"minecraft:glow_lichen",
+		"minecraft:glow_lichen",
+		"minecraft:glow_lichen",
+		"minecraft:glow_lichen"
+	],
+	"result": {
+		"count": 12,
+		"id": "minecraft:recovery_compass",
+		"components": {
+			"minecraft:item_name": {"translate":"item.minecraft.paintcan_orange"},
+			"minecraft:item_model": "minecraft:paintcan_orange",
+			"minecraft:rarity": "common"
+		}
+	}
+}

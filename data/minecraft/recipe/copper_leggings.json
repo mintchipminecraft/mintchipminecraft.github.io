@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    "CCC",
+    "C C",
+    "C C"
+  ],
+  "result": {
+    "id": "minecraft:chainmail_leggings",
+    "components": {
+		"minecraft:item_name": {"translate": "item.minecraft.copper_leggings"},
+		"minecraft:item_model": "minecraft:copper_leggings",
+		"minecraft:max_damage": 137,
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "armor",
+				"slot": "legs",
+				"id": "minecraft:armor.leggings",
+				"operation": "add_value",
+				"amount": 2
+			}
+		],
+		"minecraft:equippable": {
+			"slot": "legs",
+			"asset_id": "minecraft:copper"
+		},
+		"minecraft:repairable": {
+			"items": "minecraft:copper_ingot"
+		},
+		"minecraft:rarity": "common"
+	}
+  }
+}

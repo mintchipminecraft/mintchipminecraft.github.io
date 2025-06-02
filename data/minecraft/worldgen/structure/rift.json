@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:is_nether",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "start_pool": "minecraft:rift_start",
+  "size": 20,
+  "start_height": {
+	"type": "constant",
+	"value": {
+		"absolute": 129
+	}
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}

@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/flint_shears"
+  },
+  "hand_animation_on_swap": false
+}

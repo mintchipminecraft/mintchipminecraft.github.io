@@ -1,0 +1,98 @@
+{
+  "type": "minecraft:block",
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ],
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pitcher_plant",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "half": "lower"
+                  }
+                },
+                {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "items": "minecraft:shears"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "predicates": {
+                          "minecraft:enchantments": [
+                            {
+                              "enchantments": "minecraft:silk_touch",
+                              "levels": {
+                                "min": 1
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 1.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pitcher_plant"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pitcher_plant",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "half": "lower"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+					"min": 2,
+					"max": 3
+				  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:set_components",
+				  "components": {
+					  "minecraft:food": {"nutrition": 0, "saturation": 0},
+					  "minecraft:consumable": {}
+				  }
+                }
+              ],
+              "name": "minecraft:pitcher_pod"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/pitcher_plant"
+}

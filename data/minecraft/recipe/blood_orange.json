@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:echo_shard",
+    "X": "minecraft:cooked_salmon"
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:poisonous_potato",
+	"components": {
+		"minecraft:item_name": {"translate": "item.minecraft.blood_orange"},
+		"minecraft:item_model": "minecraft:blood_orange",
+		"minecraft:consumable": {
+			"on_consume_effects": [
+				{
+					"type": "apply_effects",
+					"effects": [{
+						"id": "minecraft:unluck",
+						"duration": -1,
+						"show_particles": false
+					}]
+				}
+			]
+		}
+	}
+  }
+}

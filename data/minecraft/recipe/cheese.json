@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:sponge"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:cooked_mutton"
+  }
+}

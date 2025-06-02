@@ -1,0 +1,15 @@
+{
+	"criteria":{
+		"eatburger":{
+			"trigger":"minecraft:consume_item",
+			"conditions":{
+				"item":{
+					"items": "minecraft:enchanted_book"
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function":"gothic:eat-tome"
+	}
+}

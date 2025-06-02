@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "minecraft:cooked_rabbit"
+  },
+  "pattern": [
+    "CCC",
+    "C C"
+  ],
+  "result": {
+    "id": "minecraft:iron_helmet",
+    "components": {
+		"minecraft:item_name": {"translate": "item.minecraft.steel_helmet"},
+		"minecraft:item_model": "minecraft:steel_helmet",
+		"minecraft:max_damage": 700,
+		"minecraft:equippable": {
+			"slot": "head",
+			"asset_id": "minecraft:steel"
+		}
+	}
+  }
+}

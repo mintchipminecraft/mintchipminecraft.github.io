@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "netherite_ingot",
+	"E": "elytra"
+  },
+  "pattern": [
+    "XXX",
+    "XEX",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:elytra",
+	"components": {
+		"minecraft:repairable": {"items":"debug_stick"},
+		"item_name": {"translate":"item.minecraft.ruby_elytra"},
+		"item_model": "minecraft:ruby_elytra",
+		"equippable": {
+			"equip_sound": "item.armor.equip_elytra",
+			"slot": "chest",
+			"asset_id": "minecraft:ruby_elytra"
+		},
+		"rarity": "epic",
+		"unbreakable": {},
+		"damage_resistant": {"types":"#is_fire"}
+	}
+  }
+}

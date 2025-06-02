@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:dirt"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:written_book",
+	"components": {
+		"minecraft:item_model": "minecraft:oyu_manual",
+		"minecraft:enchantment_glint_override": false,
+		"minecraft:tooltip_display": {
+			"hidden_components": ["minecraft:written_book_content"]
+		},
+		"minecraft:written_book_content": {
+			"pages": [
+				{"text":"Here are some tips on how to not suck in this weird version of Minecraft."},
+				{"text":"There is no hunger. Food heals directly. Better food heals more. Eating too much too quickly will make you briefly unable to eat."},
+				{"text":"Sleeping in a Bed will set your spawn point, but will not skip the night."},
+				{"text":"There are no attack cooldowns. Axes do more damage than Swords, which can block incoming damage instead of Shields."},
+				{"text":"Right clicking with any Pickaxe will ping where you are looking for all players."},
+				{"text":"Standing on a Lodestone will allow you to warp to other Lodestones. Signs next to or on top of a Lodestone will change its name in the warp list."},
+				{"text":"Flint and Steel, as well as Buckets, require Steel to make instead of Iron. Steel is made with Iron and Black Quartz, which is smelted from Obsidian."},
+				{"text":"Books cannot be crafted, but are dropped by Witches and Evokers. They can also be looted from Bookshelves throughout the world."},
+				{"text":"There is no Netherite. In its place are Rubies, with traditional tool and armor crafting recipes."},
+				{"text":"Various mob drops have been merged. For example: Meat, Fish, and Scutes."},
+				{"text":"Undead mobs are slowed walking over Salt Blocks, but not Salty Stone. Using a Crucifix also slows and burns nearby undead mobs."},
+				{"text":"Eating Salt will cure a Vampire bite. Wearing Gold or a Flower Crown prevents bites altogether."},
+				{"text":"Most leaf types drop a unique fruit, each with unique recipes. Every fruit combined makes a Fruit Salad, equivalent to a Golden Apple."},
+				{"text":"Placed dyeable blocks can be painted with a Brush in one hand and Paint in the other."},
+				{"text":"Roses are red, Violets are blue, and Blueberries are purple."}
+			],
+			"title": {
+				"raw": "Noobinomicon"
+			},
+			"author": "oyu",
+			"generation": 0,
+			"resolved": true
+		}
+	}
+  }
+}

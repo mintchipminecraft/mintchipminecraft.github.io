@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": "minecraft:stick",
+    "C": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    " C ",
+    " S "
+  ],
+  "result": {
+    "id": "minecraft:barrier",
+    "components": {
+		"minecraft:item_name": {"translate": "item.minecraft.trowel"},
+		"minecraft:item_model": "minecraft:trowel",
+		"minecraft:max_stack_size": 1,
+		"minecraft:rarity": "common"
+	}
+  }
+}

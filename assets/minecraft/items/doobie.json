@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/doobie"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/doobie_smoking"
+    },
+    "property": "minecraft:using_item"
+  }
+}

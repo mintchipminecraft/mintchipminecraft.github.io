@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "torch",
+  "ingredients": [
+    "minecraft:crimson_roots"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:torch"
+  }
+}

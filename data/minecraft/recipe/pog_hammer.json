@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": "stick",
+	"O": "turtle_scute"
+  },
+  "pattern": [
+    "OOO",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "id": "minecraft:command_block",
+	"components": {
+		"minecraft:repairable": {"items":"debug_stick"},
+		"item_name": {"translate":"item.minecraft.pog_hammer"},
+		"item_model": "minecraft:pog_hammer",
+		"rarity": "epic",
+		"damage_resistant": {"types":"#is_fire"},
+		"enchantments": {
+			"hammer": 1
+		},
+		"damage": 0,
+		"max_damage": 666,
+		"max_stack_size": 1
+	}
+  }
+}

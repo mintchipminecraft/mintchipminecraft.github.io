@@ -1,0 +1,22 @@
+{
+	"criteria":{
+		"drinkgirlpower":{
+			"trigger":"minecraft:using_item",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:brush"
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards":{
+		"function":"gothic:paint"
+	}
+}

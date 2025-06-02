@@ -1,0 +1,22 @@
+{
+	"function": "minecraft:set_components",
+	"components": {
+		"minecraft:blocks_attacks": {
+			"damage_reductions": [
+				{
+					"base": 3,
+					"factor": 0.8,
+					"horizontal_blocking_angle": 70
+				}
+			],
+			"item_damage": {
+				"threshold": 3,
+				"base": 1,
+				"factor": 0
+			},
+			"block_sound": "item.shield.block",
+			"disabled_sound": "item.shield.break",
+			"bypassed_by": "#minecraft:bypasses_shield"
+		}
+	}
+}

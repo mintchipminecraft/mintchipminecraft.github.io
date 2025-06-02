@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cheese_block",
+  "key": {
+    "#": "minecraft:seagrass",
+    "X": "minecraft:wet_sponge"
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:sponge"
+  }
+}

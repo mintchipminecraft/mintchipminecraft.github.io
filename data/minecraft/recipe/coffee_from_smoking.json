@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": "minecraft:cocoa_beans",
+  "result": {
+    "id": "minecraft:poisonous_potato",
+	"components": {
+		"minecraft:item_model": "minecraft:cup_coffee",
+		"minecraft:item_name": {"translate":"item.minecraft.cup_coffee"},
+		"minecraft:consumable": {
+			"sound": "entity.generic.drink",
+			"animation": "drink",
+			"has_consume_particles": false,
+			"on_consume_effects":[
+				{
+					"type": "apply_effects",
+					"effects": [
+						{"id":"minecraft:haste","amplifier":1,"duration":1200}
+					]
+				}
+			]
+		}
+	}
+  }
+}

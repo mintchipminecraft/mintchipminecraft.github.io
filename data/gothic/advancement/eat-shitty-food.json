@@ -1,0 +1,43 @@
+{
+	"criteria":{
+		"eathots":{
+			"trigger":"minecraft:consume_item",
+			"conditions":{
+				"item":{
+					"items": [
+						"minecraft:pumpkin_pie",
+						"minecraft:pitcher_pod",
+						"minecraft:seagrass",
+						"minecraft:mangrove_propagule",
+						"minecraft:carrot",
+						"minecraft:dried_kelp",
+						"minecraft:beetroot",
+						"minecraft:potato",
+						"minecraft:sweet_berries",
+						"minecraft:glow_berries",
+						"minecraft:melon_slice",
+						"minecraft:beef",
+						"minecraft:porkchop",
+						"minecraft:mutton",
+						"minecraft:chicken",
+						"minecraft:cod",
+						"minecraft:salmon",
+						"minecraft:pufferfish",
+						"minecraft:cookie",
+						"minecraft:rotten_flesh",
+						"minecraft:spider_eye",
+						"minecraft:resin_brick",
+						"minecraft:cooked_chicken",
+						"minecraft:jigsaw",
+						"minecraft:cooked_salmon",
+						"minecraft:weeping_vines",
+						"minecraft:brown_dye"
+					]
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function":"gothic:eat-shitty-food"
+	}
+}

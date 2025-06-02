@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "time_totem",
+  "key": {
+    "M": "minecraft:ghast_tear",
+    "S": "minecraft:echo_shard"
+  },
+  "pattern": [
+    " S ",
+    "SMS",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:recovery_compass",
+	"components": {
+		"minecraft:item_name": {"translate": "item.minecraft.night_totem"},
+		"minecraft:item_model": "minecraft:night_totem",
+		"minecraft:rarity": "common",
+		"minecraft:consumable": {}
+	}
+  }
+}

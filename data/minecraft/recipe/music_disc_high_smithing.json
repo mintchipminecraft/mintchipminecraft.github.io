@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:repeating_command_block",
+  "addition": "minecraft:light_gray_dye",
+  "result": {
+    "id": "minecraft:music_disc_13",
+	"components": {
+		"minecraft:item_model": "minecraft:music_disc_high",
+		"minecraft:jukebox_playable": "high"
+	}
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "concrete",
+  "ingredients": [
+    "minecraft:blue_dye",
+    "minecraft:light_gray_dye",
+    "minecraft:light_gray_dye",
+    "minecraft:light_gray_dye",
+    "minecraft:light_gray_dye",
+    "minecraft:glow_lichen",
+    "minecraft:glow_lichen",
+    "minecraft:glow_lichen",
+    "minecraft:glow_lichen"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:blue_concrete"
+  }
+}

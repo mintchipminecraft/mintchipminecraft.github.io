@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:cooked_rabbit",
+	"U": "minecraft:end_rod"
+  },
+  "pattern": [
+    "XUX",
+    "XUX",
+    "XUX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:recovery_compass",
+	"components": {
+		"minecraft:item_model": "minecraft:jetpack",
+		"minecraft:item_name": {"translate":"item.minecraft.jetpack"},
+		"minecraft:equippable": {
+			"slot": "chest",
+			"asset_id": "minecraft:tech",
+			"equip_sound": "entity.player.attack.nodamage"
+		},
+		"minecraft:repairable": {
+			"items": "minecraft:end_rod"
+		},
+		"minecraft:max_stack_size": 1,
+		"minecraft:max_damage": 1600,
+		"minecraft:damage": 0
+	}
+  }
+}

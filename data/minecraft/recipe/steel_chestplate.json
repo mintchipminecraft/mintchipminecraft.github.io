@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "minecraft:cooked_rabbit"
+  },
+  "pattern": [
+    "C C",
+    "CCC",
+    "CCC"
+  ],
+  "result": {
+    "id": "minecraft:iron_chestplate",
+    "components": {
+		"minecraft:item_name": {"translate": "item.minecraft.steel_chestplate"},
+		"minecraft:item_model": "minecraft:steel_chestplate",
+		"minecraft:max_damage": 1100,
+		"minecraft:equippable": {
+			"slot": "chest",
+			"asset_id": "minecraft:steel"
+		}
+	}
+  }
+}

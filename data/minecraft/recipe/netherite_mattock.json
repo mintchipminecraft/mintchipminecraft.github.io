@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:turtle_scute",
+    "P": "minecraft:netherite_pickaxe",
+    "A": "minecraft:netherite_axe",
+    "S": "minecraft:netherite_shovel",
+    "H": "minecraft:netherite_hoe"
+  },
+  "pattern": [
+    " P ",
+    "A#S",
+    " H "
+  ],
+  "result": {
+    "id": "minecraft:netherite_hoe",
+    "components": {
+		"minecraft:unbreakable": {},
+		"minecraft:item_name": {"translate": "item.minecraft.ruby_mattock"},
+		"minecraft:item_model": "minecraft:ruby_mattock",
+		"minecraft:tool": {
+			"damage_per_block": 1,
+			"rules": [
+				{"blocks":"#mineable/pickaxe", "speed":9.0, "correct_for_drops": true},
+				{"blocks":"#mineable/shovel", "speed":9.0, "correct_for_drops": true},
+				{"blocks":"#mineable/axe", "speed":9.0, "correct_for_drops": true},
+				{"blocks":"#mineable/hoe", "speed":9.0, "correct_for_drops": true}
+			]
+		}
+	}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:cooked_rabbit",
+    "X": "minecraft:string"
+  },
+  "pattern": [
+    "  #",
+    " #X",
+    "# X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:fishing_rod",
+	"components": {
+		"minecraft:item_name": {"translate":"item.minecraft.steel_fishing_rod"},
+		"minecraft:item_model": "minecraft:steel_fishing_rod",
+		"minecraft:max_damage": 400
+	}
+  }
+}

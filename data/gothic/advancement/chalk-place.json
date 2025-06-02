@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+					"blocks": "glow_lichen"
+				}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+	  "function": "gothic:chalk-place"
+  }
+}

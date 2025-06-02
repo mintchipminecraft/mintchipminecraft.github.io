@@ -1,0 +1,2 @@
+fill ~-6 ~-6 ~-6 ~6 ~6 ~6 command_block{auto:1b,Command:"execute align xyz positioned ~0.5 ~0.5 ~0.5 run function gothic:seat-replace"} replace structure_void
+advancement revoke @s only gothic:seat-place

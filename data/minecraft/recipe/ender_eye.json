@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		" A ",
+		"BCD",
+		" E "
+	],
+	"key": {
+		"A": "minecraft:wind_charge",
+		"B": "minecraft:amethyst_shard",
+		"C": "minecraft:ender_pearl",
+		"D": "minecraft:prismarine_crystals",
+		"E": "minecraft:blaze_powder"
+	},
+	"result": {
+		"id": "minecraft:ender_eye"
+	}
+}

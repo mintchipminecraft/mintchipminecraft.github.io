@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:phantom_membrane",
+	"P": "minecraft:turtle_scute"
+  },
+  "pattern": [
+    "X X",
+    "XPX",
+    "X X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:elytra"
+  }
+}

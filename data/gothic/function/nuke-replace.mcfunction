@@ -1,0 +1,2 @@
+setblock ~ ~ ~ tnt
+summon block_display ~-0.5 ~-0.5 ~-0.5 {view_range:2f,Tags:["placed_nuke"],brightness:{sky:13,block:13},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.005f,-0.005f,-0.005f],scale:[1.01f,1.01f,1.01f]},block_state:{Name:"minecraft:repeating_command_block"}}

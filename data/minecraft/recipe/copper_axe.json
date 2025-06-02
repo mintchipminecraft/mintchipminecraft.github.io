@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": "minecraft:stick",
+    "C": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    "CC ",
+    "CS ",
+    " S "
+  ],
+  "result": {
+    "id": "minecraft:stone_axe",
+    "components": {
+		"minecraft:item_name": {"translate": "item.minecraft.copper_axe"},
+		"minecraft:item_model": "minecraft:copper_axe",
+		"minecraft:max_damage": 185,
+		"minecraft:repairable": {
+			"items": "minecraft:copper_ingot"
+		}
+	}
+  }
+}

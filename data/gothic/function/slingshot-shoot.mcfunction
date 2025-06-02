@@ -1,0 +1,1 @@
+$execute anchored eyes positioned ^ ^-0.3 ^0.5 run summon minecraft:snowball ~ ~ ~ {Tags:["pebble_snowball"],Item:{id:"minecraft:leaf_litter"},Motion:[$(slingX)d,$(slingY)d,$(slingZ)d],Passengers:[{id:"minecraft:marker",Tags:["pebble_marker"]}]}

@@ -1,0 +1,2 @@
+setblock ~ ~ ~ petrified_oak_slab
+execute positioned ~ ~250 ~ run summon pig ~ ~-0.5 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Tags:["seatpig","seatpig_fresh"],equipment:{saddle:{id:"minecraft:stick",count:1}},active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:scale",base:0.7}]}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+	"bread", "cooked_beef", "end_rod"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:recovery_compass",
+	"components": {
+		"minecraft:item_name": {"translate": "item.minecraft.nuke_burger"},
+		"minecraft:item_model": "minecraft:nuke_burger",
+		"minecraft:rarity": "common",
+		"minecraft:consumable": {"consume_seconds": 0.8},
+		"minecraft:food": {"nutrition": 0, "saturation": 0},
+		"minecraft:enchantment_glint_override": true
+	}
+  }
+}

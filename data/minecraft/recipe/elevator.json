@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:granite",
+    "minecraft:granite",
+    "minecraft:granite",
+    "minecraft:granite",
+    "minecraft:ender_pearl",
+    "minecraft:granite",
+    "minecraft:granite",
+    "minecraft:granite",
+    "minecraft:granite"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:chiseled_quartz_block"
+  }
+}

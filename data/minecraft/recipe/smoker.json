@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:bricks",
+    "I": "minecraft:iron_ingot",
+    "X": "minecraft:furnace"
+  },
+  "pattern": [
+    "III",
+    "BXB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:smoker"
+  }
+}

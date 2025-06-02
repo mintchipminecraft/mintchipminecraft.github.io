@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:random_chance",
+		  "chance": 0.5
+        }
+      ],
+      "entries": [
+        {
+		  "type": "minecraft:item",
+		  "name": "minecraft:weeping_vines",
+		  "functions": [
+		    {
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:consumable": {}
+				}
+			}
+		  ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/weeping_vines_plant",
+	"functions": [
+		{
+			"function": "minecraft:furnace_smelt",
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate":{
+						"predicates":{
+							"minecraft:enchantments":[{"enchantments":"minecraft:mending","levels":{"min":1}}]
+						}
+					}
+				}
+			]
+		}
+	]
+}

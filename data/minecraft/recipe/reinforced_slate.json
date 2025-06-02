@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:deepslate",
+    "minecraft:cooked_rabbit"
+  ],
+  "result": {
+    "id": "minecraft:reinforced_deepslate"
+  }
+}

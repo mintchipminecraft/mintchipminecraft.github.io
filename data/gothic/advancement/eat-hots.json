@@ -1,0 +1,17 @@
+{
+	"criteria":{
+		"eathots":{
+			"trigger":"minecraft:consume_item",
+			"conditions":{
+				"item":{
+					"items": [
+						"minecraft:heart_of_the_sea"
+					]
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function":"gothic:eat-hots"
+	}
+}

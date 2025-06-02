@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:repeating_command_block",
+  "addition": "minecraft:suspicious_stew",
+  "result": {
+    "id": "minecraft:music_disc_13",
+	"components": {
+		"minecraft:item_model": "minecraft:music_disc_sus",
+		"minecraft:jukebox_playable": "sus"
+	}
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

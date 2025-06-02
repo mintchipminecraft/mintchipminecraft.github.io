@@ -1,0 +1,24 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:weather_check",
+			"raining": false
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"dimension": "overworld",
+				"can_see_sky": true
+			}
+		},
+		{
+			"condition": "minecraft:time_check",
+			"period": 24000,
+			"value": {
+				"min": 500,
+				"max": 11500
+			}
+		}
+	]
+}

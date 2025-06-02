@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "lodestone"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+	  "function": "gothic:lodestone-place"
+  }
+}

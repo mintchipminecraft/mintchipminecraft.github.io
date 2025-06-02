@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": "minecraft:cooked_beef",
+    "S": "minecraft:pitcher_pod",
+	"C": "minecraft:cooked_mutton"
+  },
+  "pattern": [
+    " C ",
+    "SMS",
+    " S "
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:structure_block",
+	"components": {
+		"minecraft:item_model": "minecraft:taco",
+		"minecraft:item_name": {"translate":"item.minecraft.taco"},
+		"minecraft:rarity": "common",
+		"minecraft:consumable": {},
+		"minecraft:food": {"nutrition": 1, "saturation": 1}
+	}
+  }
+}

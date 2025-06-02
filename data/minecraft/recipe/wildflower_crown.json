@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "minecraft:wildflowers"
+  },
+  "pattern": [
+    "CCC",
+    "C C",
+    "CCC"
+  ],
+  "result": {
+    "id": "minecraft:recovery_compass",
+    "components": {
+		"minecraft:item_name": {"translate": "item.minecraft.flower_crown"},
+		"minecraft:item_model": "minecraft:flower_crown",
+		"minecraft:max_stack_size": 1,
+		"minecraft:equippable": {
+			"slot": "head",
+			"asset_id": "minecraft:flower"
+		},
+		"minecraft:rarity": "common"
+	}
+  }
+}

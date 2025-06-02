@@ -1,0 +1,35 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+				  "minecraft:max_stack_size": 16,
+				  "minecraft:consumable": {
+					  "consume_seconds": 0,
+					  "sound": "block.enchantment_table.use",
+					  "has_consume_particles": false
+				  },
+				  "minecraft:lore": [{
+					  "color": "gray",
+					  "italic": false,
+					  "translate": "item.minecraft.tome_desc"
+				  }],
+				  "minecraft:item_name": {"translate": "item.minecraft.tome"},
+				  "minecraft:enchantment_glint_override": false
+			  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"eathots": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:clock"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function":"gothic:magic-clock"
+	}
+}

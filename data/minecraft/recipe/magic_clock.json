@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:clock",
+	"minecraft:turtle_scute"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:clock",
+	"components": {
+		"minecraft:item_name": {"translate": "item.minecraft.magic_clock"},
+		"minecraft:consumable": {
+			"consume_seconds": 9999999,
+			"animation": "block"
+		},
+		"minecraft:rarity": "epic",
+		"minecraft:enchantment_glint_override": true
+	}
+  }
+}

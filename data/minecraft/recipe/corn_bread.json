@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:wheat",
+	"B": "minecraft:pitcher_pod"
+  },
+  "pattern": [
+    "#B#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:bread",
+	"components": {
+		"minecraft:item_model": "minecraft:corn_bread",
+		"minecraft:item_name": {"translate":"item.minecraft.corn_bread"}
+	}
+  }
+}

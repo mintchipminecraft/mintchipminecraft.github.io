@@ -1,0 +1,141 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:black_concrete",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:orange_concrete",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:black_candle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:orange_candle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:cobweb"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:carved_pumpkin"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:jack_o_lantern"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:skeleton_skull"
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:jigsaw",
+		  "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            },
+		    {
+				"function": "set_components",
+				"components": {
+					"minecraft:item_model": "minecraft:candy_corn",
+					"minecraft:item_name": {"translate": "item.minecraft.candy_corn"},
+					"minecraft:consumable": {},
+					"minecraft:food": {"nutrition": 1, "saturation": 1},
+					"minecraft:rarity": "common"
+				}
+			}
+		  ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:blue_egg",
+		  "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            },
+		    {
+				"function": "set_components",
+				"components": {
+					"minecraft:item_model": "minecraft:rotten_egg",
+					"minecraft:item_name": {"translate": "item.minecraft.rotten_egg"}
+				}
+			}
+		  ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:stone_sword",
+		  "functions": [
+		    {
+				"function": "set_components",
+				"components": {
+					"minecraft:item_model": "minecraft:scythe",
+					"minecraft:item_name": {"translate": "item.minecraft.scythe"}
+				}
+			}
+		  ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:stone_axe",
+		  "functions": [
+		    {
+				"function": "set_components",
+				"components": {
+					"minecraft:item_model": "minecraft:cleaver",
+					"minecraft:item_name": {"translate": "item.minecraft.cleaver"}
+				}
+			}
+		  ]
+        }
+      ]
+    }
+  ]
+}

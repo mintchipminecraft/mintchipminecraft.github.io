@@ -1,0 +1,17 @@
+{
+	"criteria":{
+		"eathots":{
+			"trigger":"minecraft:consume_item",
+			"conditions":{
+				"item":{
+					"items": [
+						"minecraft:rabbit"
+					]
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function":"gothic:eat-salt"
+	}
+}

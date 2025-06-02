@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "A": "minecraft:stone_pressure_plate",
+    "B": "minecraft:hopper",
+    "C": "minecraft:comparator"
+  },
+  "pattern": [
+    "A ",
+    "BC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:polished_blackstone_pressure_plate"
+  }
+}

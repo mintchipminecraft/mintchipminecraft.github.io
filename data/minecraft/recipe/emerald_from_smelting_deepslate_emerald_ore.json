@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "group": "netherite_scrap",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredient": "minecraft:deepslate_emerald_ore",
+  "result": {
+    "id": "minecraft:netherite_scrap"
+  }
+}

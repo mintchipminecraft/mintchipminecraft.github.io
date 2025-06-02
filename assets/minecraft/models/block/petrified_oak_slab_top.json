@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "minecraft:block/seat_bottom",
+    "side": "minecraft:block/seat_side",
+    "top": "minecraft:block/seat_top"
+  }
+}

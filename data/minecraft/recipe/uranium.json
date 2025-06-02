@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "uranium",
+  "ingredients": [
+    "minecraft:lime_dye",
+    "minecraft:lime_dye",
+    "minecraft:lime_dye",
+    "minecraft:lime_dye",
+    "minecraft:lime_dye",
+    "minecraft:lime_dye",
+    "minecraft:lime_dye",
+    "minecraft:lime_dye",
+    "minecraft:lime_dye"
+  ],
+  "result": {
+    "id": "minecraft:charcoal"
+  }
+}

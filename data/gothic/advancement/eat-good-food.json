@@ -1,0 +1,30 @@
+{
+	"criteria":{
+		"eatgoodfood":{
+			"trigger":"minecraft:consume_item",
+			"conditions":{
+				"item":{
+					"items": [
+						"minecraft:tropical_fish",
+						"minecraft:structure_block",
+						"minecraft:baked_potato",
+						"minecraft:apple",
+						"minecraft:mushroom_stew",
+						"minecraft:beetroot_soup",
+						"minecraft:rabbit_stew",
+						"minecraft:suspicious_stew",
+						"minecraft:cooked_beef",
+						"minecraft:cooked_porkchop",
+						"minecraft:cooked_mutton",
+						"minecraft:cooked_rabbit",
+						"minecraft:cooked_cod",
+						"minecraft:bread"
+					]
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function":"gothic:eat-good-food"
+	}
+}

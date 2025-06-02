@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "minecraft:rosegold"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "minecraft:rosegold"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:sharpness",
+    "minecraft:smite",
+    "minecraft:impaling",
+    "minecraft:density",
+    "minecraft:breach"
+  ]
+}

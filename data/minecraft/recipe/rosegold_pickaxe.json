@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": "minecraft:stick",
+    "S": "minecraft:salmon"
+  },
+  "pattern": [
+    "SSS",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "id": "minecraft:golden_pickaxe",
+	"components": {
+		"minecraft:item_name": {"translate": "item.minecraft.rosegold_pickaxe"},
+		"minecraft:item_model": "minecraft:rosegold_pickaxe",
+		"minecraft:max_damage": 600
+	}
+  }
+}

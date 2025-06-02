@@ -1,0 +1,17 @@
+{
+	"criteria":{
+		"drinkgirlpower":{
+			"trigger":"minecraft:consume_item",
+			"conditions":{
+				"item":{
+					"components": {
+						"minecraft:item_model": "minecraft:gender_change_potion"
+					}
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function":"gothic:swap-gender"
+	}
+}

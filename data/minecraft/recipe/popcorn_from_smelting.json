@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "minecraft:pitcher_pod",
+  "result": {
+    "id": "minecraft:jigsaw",
+	"components": {
+		"minecraft:item_name": {"translate": "item.minecraft.popcorn"},
+		"minecraft:item_model": "minecraft:popcorn",
+		"minecraft:rarity": "common",
+		"minecraft:consumable": {
+			"sound": {
+				"sound_id": "item.popcorn.eat"
+			}
+		},
+		"minecraft:food": {"nutrition": 1, "saturation": 1}
+	}
+  }
+}

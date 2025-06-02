@@ -1,0 +1,16 @@
+execute if predicate gothic:painting_red unless block ~ ~ ~ #paintable_red run function gothic:paint-block-red
+execute if predicate gothic:painting_orange unless block ~ ~ ~ #paintable_orange run function gothic:paint-block-orange
+execute if predicate gothic:painting_yellow unless block ~ ~ ~ #paintable_yellow run function gothic:paint-block-yellow
+execute if predicate gothic:painting_lime unless block ~ ~ ~ #paintable_lime run function gothic:paint-block-lime
+execute if predicate gothic:painting_green unless block ~ ~ ~ #paintable_green run function gothic:paint-block-green
+execute if predicate gothic:painting_aqua unless block ~ ~ ~ #paintable_aqua run function gothic:paint-block-aqua
+execute if predicate gothic:painting_cyan unless block ~ ~ ~ #paintable_cyan run function gothic:paint-block-cyan
+execute if predicate gothic:painting_blue unless block ~ ~ ~ #paintable_blue run function gothic:paint-block-blue
+execute if predicate gothic:painting_purple unless block ~ ~ ~ #paintable_purple run function gothic:paint-block-purple
+execute if predicate gothic:painting_magenta unless block ~ ~ ~ #paintable_magenta run function gothic:paint-block-magenta
+execute if predicate gothic:painting_pink unless block ~ ~ ~ #paintable_pink run function gothic:paint-block-pink
+execute if predicate gothic:painting_brown unless block ~ ~ ~ #paintable_brown run function gothic:paint-block-brown
+execute if predicate gothic:painting_silver unless block ~ ~ ~ #paintable_silver run function gothic:paint-block-silver
+execute if predicate gothic:painting_white unless block ~ ~ ~ #paintable_white run function gothic:paint-block-white
+execute if predicate gothic:painting_gray unless block ~ ~ ~ #paintable_gray run function gothic:paint-block-gray
+execute if predicate gothic:painting_black unless block ~ ~ ~ #paintable_black run function gothic:paint-block-black

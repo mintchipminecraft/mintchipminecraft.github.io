@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+	"minecraft:beef",
+	"minecraft:rabbit"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:structure_block",
+	"components": {
+		"minecraft:item_model": "minecraft:mango_chutney",
+		"minecraft:item_name": {"translate":"item.minecraft.mango_chutney"},
+		"minecraft:rarity": "common",
+		"minecraft:consumable": {},
+		"minecraft:food": {"nutrition": 1, "saturation": 1}
+	}
+  }
+}

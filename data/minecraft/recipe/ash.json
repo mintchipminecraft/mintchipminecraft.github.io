@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0,
+  "ingredient": [
+    "minecraft:oak_planks",
+    "minecraft:spruce_planks",
+    "minecraft:birch_planks",
+    "minecraft:jungle_planks",
+    "minecraft:acacia_planks",
+    "minecraft:dark_oak_planks",
+    "minecraft:mangrove_planks",
+    "minecraft:cherry_planks",
+    "minecraft:pale_oak_planks",
+    "minecraft:bamboo_planks"
+  ],
+  "result": {
+    "id": "minecraft:light_gray_dye"
+  }
+}

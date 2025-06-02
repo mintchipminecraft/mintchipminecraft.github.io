@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    " G ",
+    "GGG",
+    " G "
+  ],
+  "result": {
+    "id": "minecraft:clock",
+    "components": {
+		"minecraft:item_name": {"translate": "item.minecraft.crucifix"},
+		"minecraft:item_model": "minecraft:crucifix",
+		"minecraft:consumable": {
+			"consume_seconds": 9999999,
+			"animation": "block"
+		},
+		"minecraft:max_stack_size": 1,
+		"minecraft:damage": 0,
+		"minecraft:max_damage": 333
+	}
+  }
+}
