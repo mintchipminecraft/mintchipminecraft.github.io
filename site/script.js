@@ -340,7 +340,7 @@ function buildEntry(id) {
 
 var content =`<main class="item-page">
   <h2>${entry.name}</h2>
-  <img src="../assets/minecraft/textures/${entry.tex}.png" alt="${entry.name}" class="item-image">
+  <img src="assets/minecraft/textures/${entry.tex}.png" alt="${entry.name}" class="item-image">
   <p>${parseDesc(entry.desc)}</p>`
 
 	for (const cat of entry.cat) {
@@ -362,7 +362,7 @@ var content =`<main class="category-page">
 		for (const cat of WIKI[entry].cat) {
 			if (cat == id) {
 				entryCnt++
-				content += `<div class="cat-item"><a href="index.html?t=e&i=${entry}"><img src="../assets/minecraft/textures/${WIKI[entry].tex}.png" alt="${WIKI[entry].name}" class="item-image"> ${WIKI[entry].name}</a></div>`
+				content += `<div class="cat-item"><a href="index.html?t=e&i=${entry}"><img src="assets/minecraft/textures/${WIKI[entry].tex}.png" alt="${WIKI[entry].name}" class="item-image"> ${WIKI[entry].name}</a></div>`
 			}
 		}
 	}
