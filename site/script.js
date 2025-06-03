@@ -91,10 +91,10 @@ WIKI_raw = {
 		desc: "Crafting ingredient that cannot be crafted but is dropped by Witches and Evokers."
 	}, banana: {
 		name: "Banana", tex: "item/chicken", cat: ["item", "food", "fruit"],
-		desc: "Yummy fruit dropped from Jungle leaves. Can be made into a [[Fruit Salad]]."
+		desc: "Yummy fruit dropped from Jungle leaves. Can be made into [[Banana Bread]] or [[Fruit Salad]]."
 	}, mango: {
 		name: "Mango", tex: "item/beef", cat: ["item", "food", "fruit"],
-		desc: "Yummy fruit dropped from Acacia leaves. Can be made into a [[Fruit Salad]]."
+		desc: "Yummy fruit dropped from Acacia leaves. Can be made into [[Mango Chutney]] or [[Fruit Salad]]."
 	}, orange: {
 		name: "Orange", tex: "item/cooked_salmon", cat: ["item", "food", "fruit"],
 		desc: "Yummy fruit dropped from Birch leaves. Can be made into [[Blood Orange]] or [[Fruit Salad]]."
@@ -103,7 +103,7 @@ WIKI_raw = {
 		desc: "Fruit that inflicts [[Bite]] when eaten."
 	}, cherries: {
 		name: "Cherries", tex: "item/cooked_chicken", cat: ["item", "food", "fruit"],
-		desc: "Yummy fruit dropped from Cherry leaves. Can be made into [[Chocolate Cherries]] or a [[Fruit Salad]]."
+		desc: "Yummy fruit dropped from Cherry leaves. Can be made into [[Chocolate Cherries]] or [[Fruit Salad]]."
 	}, chocolatecherries: {
 		name: "Chocolate Cherries", tex: "item/chocolate_cherries", cat: ["item", "food"],
 		desc: "Food item crafted with [[Cherries]] and [[Chocolate]]. Restores 4 hearts when eaten."
@@ -386,6 +386,18 @@ WIKI_raw = {
 	}, ash: {
 		name: "Ash", tex: "item/light_gray_dye", cat: ["item"],
 		desc: "Light gray dye that can be mined underground or smelted from wooden planks. Used to craft [[Fertilizer]] or concrete."
+	}, bugchungus: {
+		name: "Bug Chungus", tex: "wiki/chungus", cat: ["mob"],
+		desc: "Spawned from [[Opalescent Egg]]. The only way to get [[Opal]]s before beating the end. Oh god... It's not a typo!!! RUNN!!!!"
+	}, opal: {
+		name: "Opal", tex: "wiki/chungus_emerald", cat: ["item"],
+		desc: "Dropped by [[Bug Chungus]] and can be found growing in the outer end islands. Used to craft [[POG]] and [[Opal Apple]]."
+	}, opalapple: {
+		name: "Opal Apple", tex: "wiki/chungus_apple", cat: ["item", "food"],
+		desc: "Like a golden apple but way more epic."
+	}, opalescentegg: {
+		name: "Opalescent Egg", tex: "wiki/chungus_egg", cat: ["item"],
+		desc: "Crafted with an egg and several dyes. Used to summon [[Bug Chungus]]."
 	}
 }
 
