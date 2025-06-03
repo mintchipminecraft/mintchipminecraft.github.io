@@ -64,7 +64,7 @@ WIKI_raw = {
 		desc: "Burger crafted with [[Radium Rod]] that increases xp level by one when eaten."
 	}, steel: {
 		name: "Steel", tex: "item/cooked_rabbit", cat: ["item", "tool material"],
-		desc: "Sturdy material crafted by combining three iron with one [[Black Quartz]]. Used to make buckets, flint and steel, and more."
+		desc: "Sturdy material crafted by combining 3 iron with 1 [[Black Quartz]]. Used to make buckets, flint and steel, and more."
 	}, rosegold: {
 		name: "Rose Gold", tex: "item/salmon", cat: ["item", "tool material"],
 		desc: "Pretty pink alloy crafted from 1 gold and 3 copper, used to make more durable golden tools and armor."
@@ -238,10 +238,10 @@ WIKI_raw = {
 		desc: "Funny sword crafted from 3 bread. Can't actually be eaten."
 	}, coffee: {
 		name: "Coffee", tex: "item/cup_coffee", cat: ["item", "drink"],
-		desc: "Delicious coffee that gives Haste II when drinking. Cooked from cocoa beans."
+		desc: "Delicious coffee that gives Haste II after drinking. Cooked from cocoa beans."
 	}, tea: {
 		name: "Tea", tex: "item/cup_tea", cat: ["item", "drink"],
-		desc: "Lovely tea that gives Haste I when drinking. Cooked from any leaves."
+		desc: "Lovely tea that gives Haste I after drinking. Cooked from any leaves."
 	}, crucifix: {
 		name: "Crucifix", tex: "item/crucifix", cat: ["item", "tool"],
 		desc: "Prevents [[Bite]] from [[Vampire]]s when held. Burns and slows all nearby [[Undead]] when used. Crafted with 5 gold in a cross shape."
@@ -280,7 +280,7 @@ WIKI_raw = {
 		desc: "Cooked from [[Onion]]. https://www.youtube.com/watch?v=iBF_mDFgtH4"
 	}, nethergrapes: {
 		name: "Nether Grapes", tex: "item/grapes", cat: ["item", "food", "fruit"],
-		desc: "Can be harvested from red vines in the Nether and cooked into [[Wine]]."
+		desc: "Can be harvested from red vines in the Nether and crafted into [[Fruit Salad]] or cooked into [[Wine]]."
 	}, hemp: {
 		name: "Hemp", tex: "wiki/hemp", cat: ["block"],
 		desc: "Common plant that is only harvestable with shears. Craftable into string, [[Doobie]] or [[Dubious Cookie]]."
