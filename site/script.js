@@ -51,7 +51,7 @@ WIKI_raw = {
 		name: "Sludge", tex: "block/soul_soil", cat: ["block"],
 		desc: "Yucky radioactive sludge that generates in the Nether and when a [[Nuke]] explodes. Can be smelted into [[Radium Dust]]."
 	}, radiumdust: {
-		name: "Radium Dust", tex: "item/lime_dye", cat: ["item"],
+		name: "Radium Dust", tex: "item/lime_dye", cat: ["item", "dye"],
 		desc: "Lime dye that can crafted to and from [[Radium]]."
 	}, radium: {
 		name: "Radium", tex: "item/charcoal", cat: ["item"],
@@ -60,7 +60,7 @@ WIKI_raw = {
 		name: "Crystal o' Enchanting", tex: "item/experience_bottle", cat: ["item"],
 		desc: "Radioactive crystal crafted with a crystal and [[Radium]] that breaks into some xp when thrown or can be crafted into [[POG]]."
 	}, burgeroenchanting: {
-		name: "Burger o' Enchanting", tex: "item/nuke_burger", cat: ["item"],
+		name: "Burger o' Enchanting", tex: "item/nuke_burger", cat: ["item", "food"],
 		desc: "Burger crafted with [[Radium Rod]] that increases xp level by one when eaten."
 	}, steel: {
 		name: "Steel", tex: "item/cooked_rabbit", cat: ["item", "tool material"],
@@ -75,10 +75,10 @@ WIKI_raw = {
 		name: "Alchemy Stone", tex: "item/shulker_shell", cat: ["item"],
 		desc: "Magic stone used to transmute iron or copper into gold and coal into diamonds. It can be found in Bastion chests or dropped by Shulkers."
 	}, roottonic: {
-		name: "Root Tonic", tex: "item/magenta_dye", cat: ["item"],
+		name: "Root Tonic", tex: "item/magenta_dye", cat: ["item", "drink", "dye"],
 		desc: "Magenta dye cooked from [[Spicy Root]]s that can be drank to regenerate health."
 	}, chocolate: {
-		name: "Chocolate", tex: "item/brown_dye", cat: ["item"],
+		name: "Chocolate", tex: "item/brown_dye", cat: ["item", "food", "dye"],
 		desc: "Brown dye made with cocoa, sugar, and milk."
 	}, scute: {
 		name: "Scute", tex: "item/armadillo_scute", cat: ["item"],
@@ -108,7 +108,7 @@ WIKI_raw = {
 		name: "Chocolate Cherries", tex: "item/chocolate_cherries", cat: ["item", "food"],
 		desc: "Food item crafted with [[Cherries]] and [[Chocolate]]. Restores 4 hearts when eaten."
 	}, blueberries: {
-		name: "Blueberries", tex: "item/sweet_berries", cat: ["item", "food"],
+		name: "Blueberries", tex: "item/sweet_berries", cat: ["item", "food", "fruit"],
 		desc: "Yummy fruit found in bushes in the Taiga. Can be made into purple dye, a [[Slushie]], or a [[Fruit Salad]]."
 	}, slush: {
 		name: "Slush", tex: "block/powder_snow", cat: ["block"],
@@ -120,7 +120,7 @@ WIKI_raw = {
 		name: "Slushie", tex: "item/slushie", cat: ["item", "drink"],
 		desc: "Yummy slushy that gives speed when drank. Made from [[Slush Bucket]] and [[Blueberries]]."
 	}, curd: {
-		name: "Curd", tex: "item/mutton", cat: ["item", "food"],
+		name: "Curd", tex: "item/mutton", cat: ["item"],
 		desc: "Inedible curd crafted from Milk and a mushroom. Can be cooked into [[Cheese]]."
 	}, cheese: {
 		name: "Cheese", tex: "item/cooked_mutton", cat: ["item", "food"],
@@ -139,7 +139,7 @@ WIKI_raw = {
 		desc: "Ingredient dropped by [[Phantom]] used to make [[Spectral Wings]]."
 	}, pog: {
 		name: "POG", tex: "item/turtle_scute_single", cat: ["item"],
-		desc: "Late-game crafting item used to make [[POG Hammer]], [[Spectral Wings]], and Magic Clock. Crafted from one [[Ruby]], four [[Opal]], and four [[Crystal o Enchanting]]."
+		desc: "Late-game crafting item used to make [[POG Hammer]], [[Ruby Mattock]], [[Spectral Wings]], and Magic Clock. Crafted from one [[Ruby]], four [[Opal]], and four [[Crystal o Enchanting]]."
 	}, poghammer: {
 		name: "POG Hammer", tex: "item/pog_hammer_single", cat: ["item", "tool"],
 		desc: "Totally epic mining tool that rips through blocks."
@@ -186,7 +186,7 @@ WIKI_raw = {
 		name: "Blood", tex: "item/echo_shard", cat: ["item"],
 		desc: "Icky red blood dropped by bats and [[Vampire]]s. Will automatically heal players inflicted with [[Bite]]. Can be crafted into [[Fertilizer]], [[Death Compass]] or [[Blood Orange]]."
 	}, deathcompass: {
-		name: "Death Compass", tex: "item/recovery_compass_18", cat: ["item"],
+		name: "Death Compass", tex: "item/recovery_compass_18", cat: ["item", "tool"],
 		desc: "Compass crafted with 8 [[Blood]] that will show where you last died."
 	}, nethercrystalore: {
 		name: "Nether Crystal Ore", tex: "block/nether_quartz_ore", cat: ["block", "ore"],
@@ -279,7 +279,7 @@ WIKI_raw = {
 		name: "Onion Rings", tex: "item/onion_rings", cat: ["item", "food"],
 		desc: "Cooked from [[Onion]]. https://www.youtube.com/watch?v=iBF_mDFgtH4"
 	}, nethergrapes: {
-		name: "Nether Grapes", tex: "item/grapes", cat: ["item", "food"],
+		name: "Nether Grapes", tex: "item/grapes", cat: ["item", "food", "fruit"],
 		desc: "Can be harvested from red vines in the Nether and cooked into [[Wine]]."
 	}, hemp: {
 		name: "Hemp", tex: "wiki/hemp", cat: ["block"],
@@ -345,7 +345,7 @@ WIKI_raw = {
 		name: "Patina Stone", tex: "block/mossy_cobblestone", cat: ["block"],
 		desc: "Crafted from cobblestone and [[Patina]]."
 	}, patina: {
-		name: "Patina", tex: "item/cyan_dye", cat: ["item"],
+		name: "Patina", tex: "item/cyan_dye", cat: ["item", "dye"],
 		desc: "Cyan dye acquired by scraping copper blocks. Can be crafted into raw copper."
 	}, sheetmetal: {
 		name: "Sheet Metal", tex: "block/polished_andesite", cat: ["block"],
@@ -384,7 +384,7 @@ WIKI_raw = {
 		name: "Molotov Cocktail", tex: "item/molotov", cat: ["item", "tool"],
 		desc: "Great for starting a revolution! Also forest fires."
 	}, ash: {
-		name: "Ash", tex: "item/light_gray_dye", cat: ["item"],
+		name: "Ash", tex: "item/light_gray_dye", cat: ["item", "dye"],
 		desc: "Light gray dye that can be mined underground or smelted from wooden planks. Used to craft [[Fertilizer]] or concrete."
 	}, bugchungus: {
 		name: "Bug Chungus", tex: "wiki/chungus", cat: ["mob"],
