@@ -1,6 +1,6 @@
 WIKI_raw = {
 	["404"]: {
-		name: "Page not found", tex: "item/shulker_shell", cat: ["item", "block", "mob", "concept"],
+		name: "Page not found", tex: "wiki/404", cat: ["item", "block", "mob", "concept"], texcred: "Spaceballs (1987)",
 		desc: "There doesn't seem to be anything here."
 	}, slate: {
 		name: "Slate", tex: "block/slate", cat: ["block"],
@@ -476,7 +476,10 @@ function get(name) {
 
 function load() {
 	var type = get("t").toLowerCase();
-	var id = get("i").toLowerCase();
+	var id = get("i")
+	if (typeof id != "undefined") {
+		id = id.toLowerCase();
+	}
 
 	var doc;
 	switch (type) {
@@ -487,6 +490,10 @@ function load() {
 
 		case "c": // category
 			doc = buildCat(id);
+			break;
+
+		case "d":
+			doc = `<main class="item-page"><h2><a href="mintchipmc.zip">Click here to download! (1.21.5)</a></h2><p>To install, place the .zip file in BOTH your resourcepacks folder and the datapacks folder in the world file you will be playing. Have fun! :3</p></main>`
 			break;
 	}
 
