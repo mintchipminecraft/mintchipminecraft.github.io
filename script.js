@@ -493,7 +493,7 @@ function load() {
 			break;
 
 		case "d":
-			doc = `<main class="item-page"><h2><a href="mintchipmc.zip">Click here to download! (1.21.5)</a></h2><p>To install, place the .zip file in BOTH your resourcepacks folder and the datapacks folder in the world file you will be playing. Have fun! :3</p></main>`
+			doc = `<main class="item-page"><h2><a href="mintchipmc.zip">Click here to download! (1.21.5)</a></h2><p>To install, place the .zip file in BOTH your resourcepacks folder and the datapacks folder in the world file you will be playing. Make sure to enable the resource pack when playing, and report any issues to @t4teapot on discord. Have fun! :3</p></main>`
 			break;
 	}
 
