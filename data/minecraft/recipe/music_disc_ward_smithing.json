@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smithing_transform",
-  "base": "minecraft:repeating_command_block",
-  "addition": "minecraft:green_dye",
-  "result": {
-    "id": "minecraft:music_disc_ward"
-  },
-  "template": "minecraft:netherite_upgrade_smithing_template"
-}

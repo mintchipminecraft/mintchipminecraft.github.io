@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": ["minecraft:shulker_shell",["minecraft:copper_block","minecraft:iron_block"],["minecraft:copper_block","minecraft:iron_block"],["minecraft:copper_block","minecraft:iron_block"],["minecraft:copper_block","minecraft:iron_block"],["minecraft:copper_block","minecraft:iron_block"],["minecraft:copper_block","minecraft:iron_block"],["minecraft:copper_block","minecraft:iron_block"],["minecraft:copper_block","minecraft:iron_block"]],
-  "result": {
-    "count": 8,
-    "id": "minecraft:gold_block"
-  }
-}

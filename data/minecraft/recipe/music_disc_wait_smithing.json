@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smithing_transform",
-  "base": "minecraft:repeating_command_block",
-  "addition": "minecraft:light_blue_dye",
-  "result": {
-    "id": "minecraft:music_disc_wait"
-  },
-  "template": "minecraft:netherite_upgrade_smithing_template"
-}

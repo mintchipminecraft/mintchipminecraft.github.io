@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smithing_transform",
-  "base": "minecraft:repeating_command_block",
-  "addition": "minecraft:yellow_dye",
-  "result": {
-    "id": "minecraft:music_disc_far"
-  },
-  "template": "minecraft:netherite_upgrade_smithing_template"
-}

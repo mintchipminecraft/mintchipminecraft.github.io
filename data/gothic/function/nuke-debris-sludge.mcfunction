@@ -1,1 +1,0 @@
-$summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:soul_soil"},Time:1,Motion:[$(x),$(y),$(z)]}

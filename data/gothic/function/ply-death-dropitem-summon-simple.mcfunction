@@ -1,1 +1,0 @@
-$summon item ~ ~ ~ {Tags:["deathdrop"],Item:{count:$(count),id:"$(id)"}}

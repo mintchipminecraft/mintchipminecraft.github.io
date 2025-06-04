@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "minecraft:block/checker",
-    "side": "minecraft:block/checker",
-    "top": "minecraft:block/checker"
-  }
-}

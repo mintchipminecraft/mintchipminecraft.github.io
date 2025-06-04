@@ -1,2 +1,1 @@
-# wiki
-wiki for mint chip!!
+https://mintchipminecraft.github.io

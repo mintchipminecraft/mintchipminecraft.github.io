@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top2",
-  "textures": {
-    "bottom": "minecraft:block/checker2",
-    "side": "minecraft:block/checker",
-    "side2": "minecraft:block/checker2",
-    "top": "minecraft:block/checker"
-  }
-}

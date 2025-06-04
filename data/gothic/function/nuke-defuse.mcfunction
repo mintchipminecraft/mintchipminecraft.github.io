@@ -1,2 +1,0 @@
-data merge entity @s {Item:{id:"minecraft:barrier",components:{"minecraft:item_name":{"translate":"block.minecraft.nuke"},"minecraft:item_model":"minecraft:nuke","minecraft:max_stack_size":1}}}
-scoreboard players set #nukeDetonate whatever 0

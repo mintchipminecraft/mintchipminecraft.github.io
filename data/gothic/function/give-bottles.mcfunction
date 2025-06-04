@@ -1,1 +1,0 @@
-$give oyu potion[max_stack_size=16,potion_contents="water"] $(bottlecnt)

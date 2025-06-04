@@ -1,9 +1,0 @@
-{
-  "replace": true,
-  "values": [
-    "minecraft:cooked_beef",
-    "minecraft:cooked_porkchop",
-    "minecraft:porkchop",
-    "minecraft:rotten_flesh"
-  ]
-}

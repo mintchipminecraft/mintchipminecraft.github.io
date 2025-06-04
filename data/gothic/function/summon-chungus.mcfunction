@@ -1,2 +1,0 @@
-summon endermite
-kill @s

@@ -1,9 +1,0 @@
-{
-	"function": "minecraft:set_components",
-	"components": {
-		"minecraft:consumable": {
-			"consume_seconds": 9999999,
-			"animation": "block"
-		}
-	}
-}
