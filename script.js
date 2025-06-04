@@ -21,10 +21,10 @@ WIKI_raw = {
 		name: "Box", tex: "block/shulker_box", cat: ["block"],
 		desc: "Chest crafted with copper that can be picked up without dropping its contents."
 	}, oven: {
-		name: "Oven", tex: "block/smoker_front", cat: ["block"],
+		name: "Oven", tex: "block/smoker_front", cat: ["block"], texcred: "Farmer's Delight",
 		desc: "Specialized furnace for making food and drinks at twice the speed."
 	}, seat: {
-		name: "Seat", tex: "block/seat_top", cat: ["block"],
+		name: "Seat", tex: "block/seat_top", cat: ["block"], texcred: "Create",
 		desc: "Special slab that can be sat on. Crafted with one wooden slab and one leather."
 	}, reinforcedslate: {
 		name: "Reinforced Slate", tex: "block/reinforced_slate", cat: ["block"],
@@ -78,7 +78,7 @@ WIKI_raw = {
 		name: "Root Tonic", tex: "item/magenta_dye", cat: ["item", "drink", "dye"],
 		desc: "Magenta dye cooked from [[Spicy Root]]s that can be drank to regenerate health."
 	}, chocolate: {
-		name: "Chocolate", tex: "item/brown_dye", cat: ["item", "food", "dye"],
+		name: "Chocolate", tex: "item/brown_dye", cat: ["item", "food", "dye"], texcred: "Create",
 		desc: "Brown dye made with cocoa, sugar, and milk."
 	}, scute: {
 		name: "Scute", tex: "item/armadillo_scute", cat: ["item"],
@@ -90,25 +90,25 @@ WIKI_raw = {
 		name: "Book", tex: "item/book", cat: ["item"],
 		desc: "Crafting ingredient that cannot be crafted but is dropped by Witches and Evokers."
 	}, banana: {
-		name: "Banana", tex: "item/chicken", cat: ["item", "food", "fruit"],
+		name: "Banana", tex: "item/chicken", cat: ["item", "food", "fruit"], texcred: "Alex's Mobs",
 		desc: "Yummy fruit dropped from Jungle leaves. Can be made into [[Banana Bread]] or [[Fruit Salad]]."
 	}, mango: {
-		name: "Mango", tex: "item/beef", cat: ["item", "food", "fruit"],
+		name: "Mango", tex: "item/beef", cat: ["item", "food", "fruit"], texcred: "Simple Mango",
 		desc: "Yummy fruit dropped from Acacia leaves. Can be made into [[Mango Chutney]] or [[Fruit Salad]]."
 	}, orange: {
-		name: "Orange", tex: "item/cooked_salmon", cat: ["item", "food", "fruit"],
+		name: "Orange", tex: "item/cooked_salmon", cat: ["item", "food", "fruit"], texcred: "Terraria",
 		desc: "Yummy fruit dropped from Birch leaves. Can be made into [[Blood Orange]] or [[Fruit Salad]]."
 	}, bloodorange: {
-		name: "Blood Orange", tex: "item/blood_orange", cat: ["item", "food", "fruit"],
+		name: "Blood Orange", tex: "item/blood_orange", cat: ["item", "food", "fruit"], texcred: "Terraria",
 		desc: "Fruit that inflicts [[Bite]] when eaten."
 	}, cherries: {
-		name: "Cherries", tex: "item/cooked_chicken", cat: ["item", "food", "fruit"],
+		name: "Cherries", tex: "item/cooked_chicken", cat: ["item", "food", "fruit"], texcred: "Terraria",
 		desc: "Yummy fruit dropped from Cherry leaves. Can be made into [[Chocolate Cherries]] or [[Fruit Salad]]."
 	}, chocolatecherries: {
-		name: "Chocolate Cherries", tex: "item/chocolate_cherries", cat: ["item", "food"],
+		name: "Chocolate Cherries", tex: "item/chocolate_cherries", cat: ["item", "food"], texcred: "Terraria",
 		desc: "Food item crafted with [[Cherries]] and [[Chocolate]]. Restores 4 hearts when eaten."
 	}, blueberries: {
-		name: "Blueberries", tex: "item/sweet_berries", cat: ["item", "food", "fruit"],
+		name: "Blueberries", tex: "item/sweet_berries", cat: ["item", "food", "fruit"], texcred: "Reindev",
 		desc: "Yummy fruit found in bushes in the Taiga. Can be made into purple dye, a [[Slushie]], or a [[Fruit Salad]]."
 	}, slush: {
 		name: "Slush", tex: "block/powder_snow", cat: ["block"],
@@ -165,25 +165,25 @@ WIKI_raw = {
 		name: "Bite", tex: "mob_effect/unluck", cat: ["concept"],
 		desc: "Effect inflicted by [[Vampire]] attacks or from eating a [[Blood Orange]] that prevents healing from food and makes you burn in sunlight. [[Blood]] in the inventory will automatically be absorbed to heal. Bite can be cured by eating [[Salt]] or any golden food, and can be prevented by wearing gold armor or a [[Flower Crown]] or by holding a [[Crucifix]]."
 	}, mummy: {
-		name: "Mummy", tex: "wiki/mummy", cat: ["mob"],
+		name: "Mummy", tex: "wiki/mummy", cat: ["mob"], texcred: "https://www.planetminecraft.com/skin/mummy-zombie-4792655/",
 		desc: "Zombie variant that spawns in desert biomes and drops feathers."
 	}, flowercrown: {
 		name: "Flower Crown", tex: "item/flower_crown", cat: ["item", "wearable"],
 		desc: "Crown of 8 wildflowers that prevents [[Bite]] from a [[Vampire]] when worn."
 	}, jetpack: {
-		name: "Jetpack", tex: "item/jetpack", cat: ["item", "wearable"],
+		name: "Jetpack", tex: "item/jetpack", cat: ["item", "wearable"], texcred: "IndustrialCraft 2",
 		desc: "Allows for upwards flight when equipped by holding space midair. Crafted with 6 [[Steel]] and 3 [[Radium Rod]]."
 	}, nightvisiongoggles: {
-		name: "Night Vision Goggles", tex: "item/nvg", cat: ["item", "wearable"],
+		name: "Night Vision Goggles", tex: "item/nvg", cat: ["item", "wearable"], texcred: "Artifacts",
 		desc: "Helmet that grants Night Vision while worn. Inflicts Blindness briefly when taken off. Crafted with 6 [[Steel]], 1 [[Radium Rod]], and 2 tinted glass."
 	}, salt: {
-		name: "Salt", tex: "item/rabbit", cat: ["item", "food"],
+		name: "Salt", tex: "item/rabbit", cat: ["item", "food"], texcred: "Pam's HarvestCraft",
 		desc: "Obtained by mining [[Salty Stone]]. Can be eaten directly to cure [[Bite]] or crafted into [[Jerky]] or [[Mango Chutney]]."
 	}, mangochutney: {
-		name: "Mango Chutney", tex: "item/mango_chutney", cat: ["item", "food"],
+		name: "Mango Chutney", tex: "item/mango_chutney", cat: ["item", "food"], texcred: "Pam's HarvestCraft",
 		desc: "Better than raw mangoes!"
 	}, blood: {
-		name: "Blood", tex: "item/echo_shard", cat: ["item"],
+		name: "Blood", tex: "item/echo_shard", cat: ["item"], texcred: "Tinker's Construct",
 		desc: "Icky red blood dropped by bats and [[Vampire]]s. Will automatically heal players inflicted with [[Bite]]. Can be crafted into [[Fertilizer]], [[Death Compass]] or [[Blood Orange]]."
 	}, deathcompass: {
 		name: "Death Compass", tex: "item/recovery_compass_18", cat: ["item", "tool"],
@@ -210,37 +210,37 @@ WIKI_raw = {
 		name: "Steel Shears", tex: "item/steel_shears", cat: ["item", "tool"],
 		desc: "Sturdy, durable shears crafted from 2 [[Steel]]."
 	}, trowel: {
-		name: "Trowel", tex: "item/trowel", cat: ["item", "tool"],
+		name: "Trowel", tex: "item/trowel", cat: ["item", "tool"], texcred: "TheEnderCore's Trowel",
 		desc: "Building tool that will place a random block from your hotbar when used."
 	}, wine: {
 		name: "Wine", tex: "item/wine", cat: ["item", "drink"],
 		desc: "Tasty wine that gives brief Fire Resistance. Cooked from [[Nether Grapes]]."
 	}, vodka: {
-		name: "Vodka", tex: "item/vodka", cat: ["item", "drink"],
+		name: "Vodka", tex: "item/vodka", cat: ["item", "drink"], texcred: "Let's Do Vinery",
 		desc: "Spicy vodka that gives brief Speed II and Poison. Cooked from rotten potatoes."
 	}, beer: {
-		name: "Beer", tex: "item/beer", cat: ["item", "drink"],
+		name: "Beer", tex: "item/beer", cat: ["item", "drink"], texcred: "Terraria",
 		desc: "Refreshing beer that gives brief Strength. Cooked from wheat."
 	}, sake: {
-		name: "Sake", tex: "item/sake", cat: ["item", "drink"],
+		name: "Sake", tex: "item/sake", cat: ["item", "drink"], texcred: "Terraria",
 		desc: "Tasteful sake that gives brief Water Breathing. Cooked from [[Rice]]."
 	}, rice: {
-		name: "Rice", tex: "item/seagrass", cat: ["item", "food"],
+		name: "Rice", tex: "item/seagrass", cat: ["item", "food"], texcred: "Farmer's Delight",
 		desc: "A pile of grains harvested from seagrass. Can be made into [[Sushi]], [[Mochi]], or [[Sake]]. Can also turn [[Wet Cheese]] back into [[Cheese Block]]."
 	}, mochi: {
-		name: "Mochi", tex: "item/mochi", cat: ["item", "food"],
+		name: "Mochi", tex: "item/mochi", cat: ["item", "food"], texcred: "Pam's HarvestCraft",
 		desc: "Sticky mochi made from [[Rice]] and sugar."
 	}, sushi: {
-		name: "Sushi", tex: "item/tropical_fish", cat: ["item", "food"],
+		name: "Sushi", tex: "item/tropical_fish", cat: ["item", "food"], texcred: "Farmer's Delight",
 		desc: "Fresh sushi made from [[Rice]], raw fish, and seaweed."
 	}, baguette: {
 		name: "Baguette", tex: "item/baguette", cat: ["item", "tool"],
 		desc: "Funny sword crafted from 3 bread. Can't actually be eaten."
 	}, coffee: {
-		name: "Coffee", tex: "item/cup_coffee", cat: ["item", "drink"],
+		name: "Coffee", tex: "item/cup_coffee", cat: ["item", "drink"], texcred: "Terraria",
 		desc: "Delicious coffee that gives Haste II after drinking. Cooked from cocoa beans."
 	}, tea: {
-		name: "Tea", tex: "item/cup_tea", cat: ["item", "drink"],
+		name: "Tea", tex: "item/cup_tea", cat: ["item", "drink"], texcred: "Terraria",
 		desc: "Lovely tea that gives Haste I after drinking. Cooked from any leaves."
 	}, crucifix: {
 		name: "Crucifix", tex: "item/crucifix", cat: ["item", "tool"],
@@ -252,19 +252,19 @@ WIKI_raw = {
 		name: "Milk & Cookies", tex: "item/eventsummon_xmas", cat: ["item", "event item"],
 		desc: "Craftable totem that begins Festive [[Spirit Event]], during which enemies drop [[Present]]s."
 	}, spookycookie: {
-		name: "Spooky Cookie", tex: "item/eventsummon_halloween", cat: ["item", "event item"],
+		name: "Spooky Cookie", tex: "item/eventsummon_halloween", cat: ["item", "event item"], texcred: "Terraria",
 		desc: "Craftable totem that begins Spooky [[Spirit Event]], during which enemies drop [[Goodie Bag]]s."
 	}, spiritevent: {
 		name: "Spirit Event", tex: "item/gift_xmas", cat: ["concept"],
 		desc: "Special timed events where most hostile mobs drop grab bags with unique loot. See: [[Milk and Cookies]], [[Spooky Cookie]]"
 	}, present: {
-		name: "Present", tex: "item/gift_xmas", cat: ["item", "event item"],
+		name: "Present", tex: "item/gift_xmas", cat: ["item", "event item"], texcred: "Terraria",
 		desc: "Grab bag dropped during a Festive [[Spirit Event]] that contains Christmas-themed items and decorations."
 	}, goodiebag: {
-		name: "Goodie Bag", tex: "item/gift_halloween", cat: ["item", "event item"],
+		name: "Goodie Bag", tex: "item/gift_halloween", cat: ["item", "event item"], texcred: "Terraria",
 		desc: "Grab bag dropped during a Spooky [[Spirit Event]] that contains Halloween-themed items and decorations."
 	}, chalk: {
-		name: "Chalk", tex: "item/glow_lichen", cat: ["item"],
+		name: "Chalk", tex: "item/glow_lichen", cat: ["item"], texcred: "Occultism",
 		desc: "Stick of chalk dropped from Chalk Blocks that can be used to leave temporary markings on blocks. Can be crafted into white dye, concrete, or [[Paint Can]]."
 	}, holywater: {
 		name: "Holy Water", tex: "item/holy_water", cat: ["item"],
@@ -273,13 +273,13 @@ WIKI_raw = {
 		name: "Gender Change Potion", tex: "item/gender_change_potion", cat: ["item", "drink"],
 		desc: "Potion crafted with a water bottle, a [[Rose]], and a [[Blue Rose]] that changes the drinker's voice when damaged. The effect persists through dying."
 	}, onion: {
-		name: "Onion", tex: "item/onion", cat: ["item", "food"],
+		name: "Onion", tex: "item/onion", cat: ["item", "food"], texcred: "Farmer's Delight",
 		desc: "Dropped from [[Wild Onion]]. See [[Onion Rings]]."
 	}, onionrings: {
-		name: "Onion Rings", tex: "item/onion_rings", cat: ["item", "food"],
+		name: "Onion Rings", tex: "item/onion_rings", cat: ["item", "food"], texcred: "Artifacts",
 		desc: "Cooked from [[Onion]]. https://www.youtube.com/watch?v=iBF_mDFgtH4"
 	}, nethergrapes: {
-		name: "Nether Grapes", tex: "item/grapes", cat: ["item", "food", "fruit"],
+		name: "Nether Grapes", tex: "item/grapes", cat: ["item", "food", "fruit"], texcred: "Let's Do Vinery",
 		desc: "Can be harvested from red vines in the Nether and crafted into [[Fruit Salad]] or cooked into [[Wine]]."
 	}, hemp: {
 		name: "Hemp", tex: "wiki/hemp", cat: ["block"],
@@ -300,31 +300,31 @@ WIKI_raw = {
 		name: "Pizza", tex: "item/pizza", cat: ["item", "food"],
 		desc: "It's pizza time!"
 	}, corn: {
-		name: "Corn", tex: "item/pitcher_pod", cat: ["item", "food"],
+		name: "Corn", tex: "item/pitcher_pod", cat: ["item", "food"], texcred: "Corn Delight",
 		desc: "Juicy cob of corn, foraged from [[Wild Garden]] and grown on [[Corn Stalk]]."
 	}, popcorn: {
-		name: "Popcorn", tex: "item/popcorn_bucket", cat: ["item", "food"],
+		name: "Popcorn", tex: "item/popcorn_bucket", cat: ["item", "food"], texcred: "Thorium Mod",
 		desc: "Crunchy popped [[Corn]]."
 	}, wildgarden: {
 		name: "Wild Garden", tex: "wiki/wildgarden", cat: ["block"],
 		desc: "Drops a random farmable crop when broken."
 	}, slingshot: {
-		name: "Slingshot", tex: "item/slingshot", cat: ["item", "tool"],
+		name: "Slingshot", tex: "item/slingshot", cat: ["item", "tool"], texcred: "Just a Slingshot",
 		desc: "Simple ranged weapon that uses [[Pebble]]s for ammo."
 	}, pebble: {
 		name: "Pebble", tex: "item/leaf_litter", cat: ["block"],
 		desc: "Small pebbles found on the ground in most forests. Can be crafted into gravel or used as ammo with a [[Slingshot]]."
 	}, magicmirror: {
-		name: "Magic Mirror", tex: "item/magic_mirror", cat: ["item", "tool"],
+		name: "Magic Mirror", tex: "item/magic_mirror", cat: ["item", "tool"], texcred: "Terraria",
 		desc: "Gaze into the mirror to return home. Found in dungeon chests and occasionally dropped by [[Siren]]s."
 	}, siren: {
-		name: "Siren", tex: "wiki/siren", cat: ["mob"],
+		name: "Siren", tex: "wiki/siren", cat: ["mob"], texcred: "https://www.planetminecraft.com/skin/allured-siren-art/",
 		desc: "Sea-dwelling creatures that make spoOooOoky noises. Sometimes drop [[Magic Mirror]]."
 	}, cornstalk: {
-		name: "Corn Stalk", tex: "block/corn_top_stage7", cat: ["block"],
+		name: "Corn Stalk", tex: "block/corn_top_stage7", cat: ["block"], texcred: "Corn Delight",
 		desc: "Two block tall crop that drops [[Corn]]."
 	}, fireblossom: {
-		name: "Fireblossom", tex: "wiki/fireblossom", cat: ["block", "flower"],
+		name: "Fireblossom", tex: "wiki/fireblossom", cat: ["block", "flower"], texcred: "Terraria",
 		desc: "Nether flower that burns anything to touch it."
 	}, headlamp: {
 		name: "Head Lamp", tex: "item/mining_light", cat: ["item", "wearable"],
@@ -336,7 +336,7 @@ WIKI_raw = {
 		name: "Cobbleslate", tex: "block/cobbled_deepslate", cat: ["block"],
 		desc: "Can be crafted to and from 4 cobblestone."
 	}, goldbricks: {
-		name: "Gold Bricks", tex: "block/gold_bricks", cat: ["block"],
+		name: "Gold Bricks", tex: "block/gold_bricks", cat: ["block"], texcred: "Reindev",
 		desc: "Ornate bricks made of gold. We're not in Kansas anymore!"
 	}, meatblock: {
 		name: "Meat Block", tex: "block/honeycomb_block", cat: ["block"],
@@ -348,7 +348,7 @@ WIKI_raw = {
 		name: "Patina", tex: "item/cyan_dye", cat: ["item", "dye"],
 		desc: "Cyan dye acquired by scraping copper blocks. Can be crafted into raw copper."
 	}, sheetmetal: {
-		name: "Sheet Metal", tex: "block/polished_andesite", cat: ["block"],
+		name: "Sheet Metal", tex: "block/polished_andesite", cat: ["block"], texcred: "Factory Blocks",
 		desc: "Cheap decorative iron blocks."
 	}, rose: {
 		name: "Rose", tex: "block/poppy", cat: ["block", "flower"],
@@ -387,7 +387,7 @@ WIKI_raw = {
 		name: "Ash", tex: "item/light_gray_dye", cat: ["item", "dye"],
 		desc: "Light gray dye that can be mined underground or smelted from wooden planks. Used to craft [[Fertilizer]] or concrete."
 	}, bugchungus: {
-		name: "Bug Chungus", tex: "wiki/chungus", cat: ["mob"],
+		name: "Bug Chungus", tex: "wiki/chungus", cat: ["mob"], texcred: "Mariam's Soulslike Weaponry",
 		desc: "Spawned from [[Opalescent Egg]]. The only way to get [[Opal]]s before beating the end. Oh god... It's not a typo!!! RUNN!!!!"
 	}, opal: {
 		name: "Opal", tex: "wiki/chungus_emerald", cat: ["item"],
@@ -435,11 +435,12 @@ var content =`<main class="item-page">
   <h2>${entry.name}</h2>
   <img src="tex/${entry.tex}.png" alt="${entry.name}" class="item-image">
   <p>${parseDesc(entry.desc)}</p>`
-
 	for (const cat of entry.cat) {
 		content += `<p><a href="index.html?t=c&i=${cat}">List of ${cat}s</a></p>`
 	}
-
+	if (typeof entry.texcred != "undefined") {
+		content += `<p>Texture credit: ${entry.texcred}</p>`
+	}
 	return content + `</main>`
 }
 
