@@ -24,7 +24,7 @@ WIKI_raw = {
 		name: "Oven", tex: "block/smoker_front", cat: ["block"], texcred: "Farmer's Delight",
 		desc: "Specialized furnace for making food and drinks at twice the speed."
 	}, seat: {
-		name: "Seat", tex: "block/seat_top", cat: ["block"], texcred: "Create",
+		name: "Seat", tex: "wiki/seat", cat: ["block"], texcred: "Create",
 		desc: "Special slab that can be sat on. Crafted with one wooden slab and one leather."
 	}, reinforcedslate: {
 		name: "Reinforced Slate", tex: "block/reinforced_slate", cat: ["block"],
@@ -157,7 +157,7 @@ WIKI_raw = {
 		desc: "Can be used with a [[Blank Disc]] and a dye in a smithing table to create a music disc. Crafted from a jukebox and a brush."
 	}, phantom: {
 		name: "Phantom", tex: "wiki/phantom", cat: ["mob"],
-		desc: "Annoying flying ghosts that spawn naturally in the outer islands of the End and drop [[Ectoplasm]]."
+		desc: "Annoying flying ghosts that spawn naturally in the outer islands of the [[Moon]] and drop [[Ectoplasm]]."
 	}, vampire: {
 		name: "Vampire", tex: "wiki/vampire", cat: ["mob"],
 		desc: "Spooky humanoid mobs, replacing zombies, that inflict [[Bite]] and drop [[Blood]] when killed. Sometimes transform from bats."
@@ -209,21 +209,24 @@ WIKI_raw = {
 	}, steelshears: {
 		name: "Steel Shears", tex: "item/steel_shears", cat: ["item", "tool"],
 		desc: "Sturdy, durable shears crafted from 2 [[Steel]]."
+	}, steelfishingrod: {
+		name: "Steel Fishing Rod", tex: "item/steel_fishing_rod", cat: ["item", "tool"],
+		desc: "Sturdy, durable shears crafted from 2 [[Steel]]."
 	}, trowel: {
 		name: "Trowel", tex: "item/trowel", cat: ["item", "tool"], texcred: "TheEnderCore's Trowel",
 		desc: "Building tool that will place a random block from your hotbar when used."
 	}, wine: {
 		name: "Wine", tex: "item/wine", cat: ["item", "drink"],
-		desc: "Tasty wine that gives brief Fire Resistance. Cooked from [[Nether Grapes]]."
+		desc: "Tasty wine that gives brief Fire Resistance and Weakness. Cooked from [[Nether Grapes]]."
 	}, vodka: {
 		name: "Vodka", tex: "item/vodka", cat: ["item", "drink"], texcred: "Let's Do Vinery",
 		desc: "Spicy vodka that gives brief Speed II and Poison. Cooked from rotten potatoes."
 	}, beer: {
 		name: "Beer", tex: "item/beer", cat: ["item", "drink"], texcred: "Terraria",
-		desc: "Refreshing beer that gives brief Strength. Cooked from wheat."
+		desc: "Refreshing beer that gives brief Strength and Mining Fatigue. Cooked from wheat."
 	}, sake: {
 		name: "Sake", tex: "item/sake", cat: ["item", "drink"], texcred: "Terraria",
-		desc: "Tasteful sake that gives brief Water Breathing. Cooked from [[Rice]]."
+		desc: "Tasteful sake that gives brief Water Breathing and Weakness. Cooked from [[Rice]]."
 	}, rice: {
 		name: "Rice", tex: "item/seagrass", cat: ["item", "food"], texcred: "Farmer's Delight",
 		desc: "A pile of grains harvested from seagrass. Can be made into [[Sushi]], [[Mochi]], or [[Sake]]. Can also turn [[Wet Cheese]] back into [[Cheese Block]]."
@@ -388,16 +391,103 @@ WIKI_raw = {
 		desc: "Light gray dye that can be mined underground or smelted from wooden planks. Used to craft [[Fertilizer]] or concrete."
 	}, bugchungus: {
 		name: "Bug Chungus", tex: "wiki/chungus", cat: ["mob"], texcred: "Mariam's Soulslike Weaponry",
-		desc: "Spawned from [[Opalescent Egg]]. The only way to get [[Opal]]s before beating the end. Oh god... It's not a typo!!! RUNN!!!!"
+		desc: "Spawned from [[Opalescent Egg]]. The only way to get [[Opal]]s before the [[Moon]]. Oh god... It's not a typo!!! RUNN!!!!"
 	}, opal: {
 		name: "Opal", tex: "wiki/chungus_emerald", cat: ["item"],
-		desc: "Dropped by [[Bug Chungus]] and can be found growing in the outer end islands. Used to craft [[POG]] and [[Opal Apple]]."
+		desc: "Dropped by [[Bug Chungus]] and can be found growing in the outer [[Moon]] islands. Used to craft [[POG]] and [[Opal Apple]]."
 	}, opalapple: {
 		name: "Opal Apple", tex: "wiki/chungus_apple", cat: ["item", "food"],
 		desc: "Like a golden apple but way more epic."
 	}, opalescentegg: {
 		name: "Opalescent Egg", tex: "wiki/chungus_egg", cat: ["item"],
 		desc: "Crafted with an egg and several dyes. Used to summon [[Bug Chungus]]."
+	}, meat: {
+		name: "Meat", tex: "wiki/meat", cat: ["item", "food"],
+		desc: "Generic meat dropped from most animals. Can be cooked into [[Steak]] or crafted into [[Jerky]]. Restores 2 hearts."
+	}, steak: {
+		name: "Steak", tex: "wiki/steak", cat: ["item", "food"],
+		desc: "Cooked [[meat]] that restores 4 hearts."
+	}, moonmold: {
+		name: "Moon Mold", tex: "item/chorus_fruit", cat: ["item", "food"],
+		desc: "Mold that can be found growing on the moon. When eaten, you will be teleported randomly in a small radius. Can be smelted into [[Moon Brick]]."
+	}, moonbrick: {
+		name: "Moon Brick", tex: "item/popped_chorus_fruit", cat: ["item"],
+		desc: "Brick smelted from [[Moon Mold]]. Can be crafted into [[Moon Bricks]]."
+	}, moonbricks: {
+		name: "Moon Bricks", tex: "block/purpur_block", cat: ["block"],
+		desc: "Decorative block crafted from [[Moon Brick]]s."
+	}, smelting: {
+		name: "Smelting", tex: "item/enchanted_book", cat: ["concept", "enchantment"],
+		desc: "Smelting is a treasure enchantment for tools that automatically smelts any mined items."
+	}, venom: {
+		name: "Venom", tex: "item/enchanted_book", cat: ["concept", "enchantment"],
+		desc: "Venom is a weapon enchantment that inflicts poison."
+	}, soulbound: {
+		name: "Soulbound", tex: "item/enchanted_book", cat: ["concept", "enchantment"],
+		desc: "Soulbound is a common yet powerful enchantment that prevents an item from being dropped on death."
+	}, marble: {
+		name: "Marble", tex: "wiki/marble", cat: ["block"],
+		desc: "Marble is abundant decorative stone found throughout the world. Can be used to craft [[Elevator]]."
+	}, elevator: {
+		name: "Elevator", tex: "wiki/elevator", cat: ["block"],
+		desc: "When stood on an elevator, sneaking or jumping will teleport you to any elevator blocks directly down or up. Crafted from an ender pearl and 8 [[Marble]]."
+	}, bakeddirt: {
+		name: "Baked Dirt", tex: "wiki/packed_mud", cat: ["block"],
+		desc: "Baked dirt is acquired from smelting dirt and can be crafted into dirt bricks."
+	}, permafrost: {
+		name: "Permafrost", tex: "block/dripstone_block", cat: ["block"],
+		desc: "Found in [[Icicle]] caves underground, and can be used to craft [[Thin Ice]]."
+	}, icicle: {
+		name: "Icicle", tex: "item/pointed_dripstone", cat: ["block"],
+		desc: "Found in Icicle caves along with [[Permafrost]]."
+	}, thinice: {
+		name: "Thin Ice", tex: "wiki/thin_ice", cat: ["block"],
+		desc: "Thin Ice is a slab block crafted from [[Permafrost]] that will shatter when walked on without sneaking."
+	}, sortingpad: {
+		name: "Sorting Pad", tex: "wiki/sorting_pad", cat: ["block"],
+		desc: "The Sorting Pad is a special pressure plate that will attempt to automatically stack items from your inventory into adjacent containers."
+	}, nuggetrails: {
+		name: "Nugget Rails", tex: "wiki/powered_rail", cat: ["concept"],
+		desc: "Rails can be crafted using nuggets of iron/gold instead of full ingots."
+	}, destripping: {
+		name: "Destripping", tex: "wiki/stripped_oak_log", cat: ["concept"],
+		desc: "Breaking any stripped wood or log without Silk Touch will drop an unstripped wood or log."
+	}, moon: {
+		name: "The Moon", tex: "block/end_stone", cat: ["concept"],
+		desc: "The End is The Moon, don't think too hard about it."
+	}, sliceofcake: {
+		name: "Slice of Cake", tex: "item/cake_slice", cat: ["item"], texcred: "Terraria",
+		desc: "Dropped from mining a cake and can be combined back into a full cake. Restores 2 hearts."
+	}, boba: {
+		name: "Boba", tex: "item/boba", cat: ["item", "drink"], texcred: "Terraria",
+		desc: "Yummy sugary tea that gives speed when drank."
+	}, eggnog: {
+		name: "Eggnog", tex: "item/eggnog", cat: ["item", "drink", "event item"], texcred: "Terraria",
+		desc: "Gives the same effects as [[Beer]]. Obtained only from [[Present]]s."
+	}, gingerbreadcookie: {
+		name: "Gingerbread Cookie", tex: "item/gingerbread_cookie", cat: ["item", "food", "event item"], texcred: "Terraria",
+		desc: "Restores 2 hearts. Obtained only from [[Present]]s."
+	}, candycane: {
+		name: "Candy Cane", tex: "item/candy_cane", cat: ["item", "food", "event item"], texcred: "The Aether",
+		desc: "Restores 2 hearts. Obtained only from [[Present]]s."
+	}, candycanesword: {
+		name: "Candy Cane Sword", tex: "item/candy_cane_sword", cat: ["item", "tool", "event item"],
+		desc: "Wood-tier sword repairable with sugar. Obtained only from [[Present]]s."
+	}, figgypudding: {
+		name: "Figgy Pudding", tex: "item/xmas_pudding", cat: ["item", "food", "event item"], texcred: "Terraria",
+		desc: "Restores 4 hearts. Obtained only from [[Present]]s."
+	}, candycorn: {
+		name: "Candy Corn", tex: "item/candy_corn", cat: ["item", "food", "event item"], texcred: "Terraria",
+		desc: "Restores 2 hearts. Obtained only from [[Goodie Bag]]s."
+	}, cleaver: {
+		name: "Cleaver", tex: "item/cleaver", cat: ["item", "tool", "event item"], texcred: "Occultism",
+		desc: "Reskin of Iron Axe. Obtained only from [[Goodie Bag]]s."
+	}, scythe: {
+		name: "Scythe", tex: "item/scythe", cat: ["item", "tool", "event item"], texcred: "Occultism",
+		desc: "Reskin of Iron Sword. Obtained only from [[Goodie Bag]]s."
+	}, revenant: {
+		name: "Revenant", tex: "wiki/revenant", cat: ["mob"],
+		desc: "Skeleton variant that spawns more commonly in cold biomes. Drops bones, and occasionally dragon's breath."
 	}
 }
 
