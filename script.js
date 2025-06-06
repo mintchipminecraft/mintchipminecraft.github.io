@@ -521,6 +521,12 @@ WIKI_raw = {
 	}, asphaltpowder: {
 		name: "Asphalt Powder", tex: "wiki/asphalt_powder", cat: ["block"],
 		desc: "Crafted from sand, gravel, and coal. Turns into [[Asphalt]] when touching water."
+	}, ping: {
+		name: "Ping", tex: "item/steel_pickaxe", cat: ["concept"],
+		desc: "Right-clicking with any pickaxe will ping where you are looking for all players."
+	}, combat: {
+		name: "Combat", tex: "item/steel_sword", cat: ["concept"],
+		desc: "There are no attack cooldowns. Axes deal more damage to single targets than swords, but swords can be used in either hand to block damage from the front."
 	}
 }
 
