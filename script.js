@@ -211,7 +211,7 @@ WIKI_raw = {
 		desc: "Sturdy, durable shears crafted from 2 [[Steel]]."
 	}, steelfishingrod: {
 		name: "Steel Fishing Rod", tex: "item/steel_fishing_rod", cat: ["item", "tool"],
-		desc: "Sturdy, durable shears crafted from 2 [[Steel]]."
+		desc: "Sturdy, durable fishing rod crafted from [[Steel]]."
 	}, trowel: {
 		name: "Trowel", tex: "item/trowel", cat: ["item", "tool"], texcred: "TheEnderCore's Trowel",
 		desc: "Building tool that will place a random block from your hotbar when used."
