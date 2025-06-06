@@ -388,7 +388,7 @@ WIKI_raw = {
 		desc: "Great for starting a revolution! Also forest fires."
 	}, ash: {
 		name: "Ash", tex: "item/light_gray_dye", cat: ["item", "dye"],
-		desc: "Light gray dye that can be mined underground or smelted from wooden planks. Used to craft [[Fertilizer]] or concrete."
+		desc: "Light gray dye that can be mined underground or smelted from wooden planks. Used to craft [[Fertilizer]] or [[Porcelain]]."
 	}, bugchungus: {
 		name: "Bug Chungus", tex: "wiki/chungus", cat: ["mob"], texcred: "Mariam's Soulslike Weaponry",
 		desc: "Spawned from [[Opalescent Egg]]. The only way to get [[Opal]]s before the [[Moon]]. Oh god... It's not a typo!!! RUNN!!!!"
@@ -488,6 +488,39 @@ WIKI_raw = {
 	}, revenant: {
 		name: "Revenant", tex: "wiki/revenant", cat: ["mob"],
 		desc: "Skeleton variant that spawns more commonly in cold biomes. Drops bones, and occasionally dragon's breath."
+	}, trampoline: {
+		name: "Trampoline", tex: "block/trampoline_top", cat: ["block"],
+		desc: "Funny block that boings you up."
+	}, porcelain: {
+		name: "Porcelain", tex: "block/plain_porcelain", cat: ["block"],
+		desc: "Dyeable building block crafted from [[Ash]] and clay that makes up much of the terrain in the badlands."
+	}, staticblock: {
+		name: "Static", tex: "wiki/static", cat: ["block", "event item"],
+		desc: "Animated block obtained only from [[Goodie Bag]]s."
+	}, redstripedblock: {
+		name: "Red Striped Block", tex: "block/customblock_green", cat: ["block", "event item"],
+		desc: "Decorative block obtained only from [[Present]]s."
+	}, greenstripedblock: {
+		name: "Green Striped Block", tex: "block/customblock_lime", cat: ["block", "event item"],
+		desc: "Decorative block obtained only from [[Present]]s."
+	}, hazardblock: {
+		name: "Hazard Block", tex: "block/customblock_yellow", cat: ["block"],
+		desc: "Decorative block crafted from black and yellow [[Porcelain]]."
+	}, blockofsteel: {
+		name: "Block of Steel", tex: "block/customblock_blue", cat: ["block"],
+		desc: "Block crafted from [[Steel]] that can be used as a beacon base."
+	}, blockofrosegold: {
+		name: "Block of Rose Gold", tex: "block/customblock_pink", cat: ["block"],
+		desc: "Block crafted from [[Rose Gold]] that can be used as a beacon base."
+	}, blockofradium: {
+		name: "Block of Radium", tex: "block/customblock_black", cat: ["block"],
+		desc: "Block crafted from [[Radium]] that can be used as a beacon base."
+	}, asphalt: {
+		name: "Asphalt", tex: "block/customblock_light_gray", cat: ["block"],
+		desc: "Created when [[Asphalt Powder]] touches water. Gives a slight speed boost."
+	}, asphaltpowder: {
+		name: "Asphalt Powder", tex: "wiki/asphalt_powder", cat: ["block"],
+		desc: "Crafted from sand, gravel, and coal. Turns into [[Asphalt]] when touching water."
 	}
 }
 
