@@ -483,14 +483,14 @@ WIKI_raw = {
 		name: "Cleaver", tex: "item/cleaver", cat: ["item", "tool", "event item"], texcred: "Occultism",
 		desc: "Reskin of Iron Axe. Obtained only from [[Goodie Bag]]s."
 	}, scythe: {
-		name: "Scythe", tex: "item/scythe", cat: ["item", "tool", "event item"], texcred: "Occultism",
+		name: "Scythe", tex: "item/scythe", cat: ["item", "tool", "event item"], texcred: "More Weapons",
 		desc: "Reskin of Iron Sword. Obtained only from [[Goodie Bag]]s."
 	}, revenant: {
 		name: "Revenant", tex: "wiki/revenant", cat: ["mob"],
 		desc: "Skeleton variant that spawns more commonly in cold biomes. Drops bones, and occasionally dragon's breath."
 	}, trampoline: {
 		name: "Trampoline", tex: "block/trampoline_top", cat: ["block"],
-		desc: "Funny block that boings you up."
+		desc: "Funny block that boings you up. Crafted from slime blocks and iron ingots."
 	}, porcelain: {
 		name: "Porcelain", tex: "block/plain_porcelain", cat: ["block"],
 		desc: "Dyeable building block crafted from [[Ash]] and clay that makes up much of the terrain in the badlands."
