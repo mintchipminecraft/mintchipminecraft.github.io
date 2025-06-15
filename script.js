@@ -343,7 +343,7 @@ WIKI_raw = {
 		desc: "Ornate bricks made of gold. We're not in Kansas anymore!"
 	}, meatblock: {
 		name: "Meat Block", tex: "block/honeycomb_block", cat: ["block"],
-		desc: "Crafted from 4 meat.... ew"
+		desc: "Crafted from 4 [[Meat]].... ew"
 	}, patinastone: {
 		name: "Patina Stone", tex: "block/mossy_cobblestone", cat: ["block"],
 		desc: "Crafted from cobblestone and [[Patina]]."
